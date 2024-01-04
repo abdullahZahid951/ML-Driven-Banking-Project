@@ -17,5 +17,7 @@ Framework For GUI: **JavaFx**
 ![registrationForm](https://github.com/abdullahZahid951/ML-Driven-Banking-Project/assets/140307221/83b1a333-5756-42c2-b706-58806f5d202d)
 ### Home Page :
 ![homePageUi](https://github.com/abdullahZahid951/ML-Driven-Banking-Project/assets/140307221/77d28591-dcaf-44b5-a039-136c081b244d)
+### Money Transfer : 
+![SENDMONEYUI](https://github.com/abdullahZahid951/ML-Driven-Banking-Project/assets/140307221/9d7c63db-28b5-4bfe-a1a2-2ed671823d1c)
 
  
