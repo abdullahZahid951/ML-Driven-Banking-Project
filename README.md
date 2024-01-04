@@ -33,6 +33,8 @@ Framework For GUI: **JavaFx**
 ![LoanMangementRegularUser](https://github.com/abdullahZahid951/ML-Driven-Banking-Project/assets/140307221/ef784b71-4724-4039-a443-24bf2d075345)
 ### LoanMangement For Premium User :
 ![LoanMangementPremiumUser](https://github.com/abdullahZahid951/ML-Driven-Banking-Project/assets/140307221/cf2cbd65-143c-4c8c-bdf6-86939876135a)
+### Deposit Money UI :
+![DEPOSITMoneyui](https://github.com/abdullahZahid951/ML-Driven-Banking-Project/assets/140307221/5668dd00-11be-49f5-a633-b1b4ebb65c2f)
 
 
  
