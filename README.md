@@ -21,5 +21,8 @@ Framework For GUI: **JavaFx**
 ![SENDMONEYUI](https://github.com/abdullahZahid951/ML-Driven-Banking-Project/assets/140307221/9d7c63db-28b5-4bfe-a1a2-2ed671823d1c)
 ### AI Advice For Premium User UI :
 ![AIAdviceForpremiumuser](https://github.com/abdullahZahid951/ML-Driven-Banking-Project/assets/140307221/861c9ae7-c75b-4b87-a782-edb82f555641)
+### AI Advice For Regular User UI :
+![AIAdviceForRegualrUser](https://github.com/abdullahZahid951/ML-Driven-Banking-Project/assets/140307221/0b4a175a-9567-45ea-81d5-80faa3fc6ff4)
+
 
  
