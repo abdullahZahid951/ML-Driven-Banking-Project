@@ -13,5 +13,7 @@ Framework For GUI: **JavaFx**
 ## GUIs Of Project:
 ### Login Page :
 ![loginPage](https://github.com/abdullahZahid951/ML-Driven-Banking-Project/assets/140307221/e880efd3-9bc3-4410-93cd-9ade11b545e0)
+### Registration Form :
+![registrationForm](https://github.com/abdullahZahid951/ML-Driven-Banking-Project/assets/140307221/83b1a333-5756-42c2-b706-58806f5d202d)
 
  
