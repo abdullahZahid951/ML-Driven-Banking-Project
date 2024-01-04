@@ -1,0 +1,292 @@
+create database FinancialGuardianDataBase ;
+use FinancialGuardianDataBase ;
+
+/*
+DROP TABLE dataForRegularModel
+DROP TABLE dataForPremiumModel
+ DROP TABLE accountActivity;
+ DROP TABLE BankAccount ;
+ DROP TABLE currentBalance ;
+ DROP TABLE billPaymentActivity
+*/
+
+
+CREATE TABLE BankAccount (
+    UserId VARCHAR(255),
+    name VARCHAR(255),
+    email VARCHAR(255),
+    address VARCHAR(255),
+    initialAmountDeposited DOUBLE,
+    cnic INT,
+    AccNum INT,
+    pin INT,
+    gender BOOLEAN,
+    DOB DATE,
+    DateWhenAccCreated DATE,
+    premiumAcc BOOLEAN DEFAULT false,
+    regularAcc BOOLEAN DEFAULT false
+);
+
+CREATE TABLE accountActivity (
+	UserId VARCHAR (255) ,
+    AccNum INT,
+	description VARCHAR(500),
+	amountInvolved DOUBLE,
+    DOBOfActivity DATE 
+);
+
+CREATE TABLE currentBalance(
+	UserId VARCHAR (255) ,
+    AccNum INT,
+    CurrentAmount DOUBLE
+
+);
+
+
+CREATE TABLE billPaymentActivity (
+    UserId VARCHAR(255),
+    BillId INT,
+    BillType VARCHAR(255),
+    BillAmount DOUBLE,
+    Month INT ,
+    Year INT
+
+    );
+
+
+
+
+
+CREATE TABLE dataForPremiumModel(
+     monthNo INT ,
+     daysToHold INT,
+     profitRate double ,
+     investmentAmm double ,
+     bestInvestmentcompanies INT
+    ) ;
+
+
+
+
+
+
+
+
+
+
+INSERT INTO dataForPremiumModel VALUES (1, 15, 4.5, 10000, 1);
+INSERT INTO dataForPremiumModel VALUES (2, 10, 2.3, 8000, 0);
+INSERT INTO dataForPremiumModel VALUES (3, 20, 6.8, 15000, 1);
+INSERT INTO dataForPremiumModel VALUES (4, 12, 3.1, 12000, 0);
+INSERT INTO dataForPremiumModel VALUES (5, 18, 5.6, 20000, 1);
+INSERT INTO dataForPremiumModel VALUES (6, 8, 1.9, 6000, 0);
+INSERT INTO dataForPremiumModel VALUES (7, 14, 4.2, 11000, 1);
+INSERT INTO dataForPremiumModel VALUES (8, 16, 6.0, 18000, 0);
+INSERT INTO dataForPremiumModel VALUES (9, 22, 7.8, 25000, 1);
+INSERT INTO dataForPremiumModel VALUES (10, 9, 2.8, 9000, 0);
+INSERT INTO dataForPremiumModel VALUES (11, 15, 4.5, 10000, 1);
+INSERT INTO dataForPremiumModel VALUES (12, 10, 2.3, 8000, 0);
+INSERT INTO dataForPremiumModel VALUES (1, 20, 6.8, 15000, 1);
+INSERT INTO dataForPremiumModel VALUES (2, 12, 3.1, 12000, 0);
+INSERT INTO dataForPremiumModel VALUES (3, 18, 5.6, 20000, 1);
+INSERT INTO dataForPremiumModel VALUES (4, 8, 1.9, 6000, 0);
+INSERT INTO dataForPremiumModel VALUES (5, 14, 4.2, 11000, 1);
+INSERT INTO dataForPremiumModel VALUES (6, 16, 6.0, 18000, 0);
+INSERT INTO dataForPremiumModel VALUES (7, 22, 7.8, 25000, 1);
+INSERT INTO dataForPremiumModel VALUES (8, 9, 2.8, 9000, 0);
+INSERT INTO dataForPremiumModel VALUES (9, 15, 4.5, 10000, 1);
+INSERT INTO dataForPremiumModel VALUES (10, 10, 2.3, 8000, 0);
+INSERT INTO dataForPremiumModel VALUES (11, 20, 6.8, 15000, 1);
+INSERT INTO dataForPremiumModel VALUES (12, 12, 3.1, 12000, 0);
+INSERT INTO dataForPremiumModel VALUES (1, 18, 5.6, 20000, 1);
+INSERT INTO dataForPremiumModel VALUES (2, 8, 1.9, 6000, 0);
+INSERT INTO dataForPremiumModel VALUES (3, 14, 4.2, 11000, 1);
+INSERT INTO dataForPremiumModel VALUES (4, 16, 6.0, 18000, 0);
+INSERT INTO dataForPremiumModel VALUES (5, 22, 7.8, 25000, 1);
+INSERT INTO dataForPremiumModel VALUES (6, 9, 2.8, 9000, 0);
+INSERT INTO dataForPremiumModel VALUES (7, 15, 4.5, 10000, 1);
+INSERT INTO dataForPremiumModel VALUES (8, 10, 2.3, 8000, 0);
+INSERT INTO dataForPremiumModel VALUES (9, 20, 6.8, 15000, 1);
+INSERT INTO dataForPremiumModel VALUES (10, 12, 3.1, 12000, 0);
+INSERT INTO dataForPremiumModel VALUES (11, 18, 5.6, 20000, 1);
+INSERT INTO dataForPremiumModel VALUES (12, 8, 1.9, 6000, 0);
+INSERT INTO dataForPremiumModel VALUES (1, 14, 4.2, 11000, 1);
+INSERT INTO dataForPremiumModel VALUES (2, 16, 6.0, 18000, 0);
+INSERT INTO dataForPremiumModel VALUES (3, 22, 7.8, 25000, 1);
+INSERT INTO dataForPremiumModel VALUES (4, 9, 2.8, 9000, 0);
+INSERT INTO dataForPremiumModel VALUES (5, 15, 4.5, 10000, 1);
+INSERT INTO dataForPremiumModel VALUES (6, 10, 2.3, 8000, 0);
+INSERT INTO dataForPremiumModel VALUES (7, 20, 6.8, 15000, 1);
+INSERT INTO dataForPremiumModel VALUES (8, 12, 3.1, 12000, 0);
+INSERT INTO dataForPremiumModel VALUES (9, 18, 5.6, 20000, 1);
+INSERT INTO dataForPremiumModel VALUES (10, 8, 1.9, 6000, 0);
+INSERT INTO dataForPremiumModel VALUES (11, 14, 4.2, 11000, 1);
+INSERT INTO dataForPremiumModel VALUES (12, 16, 6.0, 18000, 0);
+INSERT INTO dataForPremiumModel VALUES (1, 22, 7.8, 25000, 1);
+INSERT INTO dataForPremiumModel VALUES (2, 9, 2.8, 9000, 0);
+INSERT INTO dataForPremiumModel VALUES (3, 15, 4.5, 10000, 1);
+INSERT INTO dataForPremiumModel VALUES (4, 10, 2.3, 8000, 0);
+INSERT INTO dataForPremiumModel VALUES (5, 20, 6.8, 15000, 1);
+INSERT INTO dataForPremiumModel VALUES (6, 12, 3.1, 12000, 0);
+INSERT INTO dataForPremiumModel VALUES (7, 18, 5.6, 20000, 1);
+INSERT INTO dataForPremiumModel VALUES (8, 8, 1.9, 6000, 0);
+INSERT INTO dataForPremiumModel VALUES (9, 14, 4.2, 11000, 1);
+INSERT INTO dataForPremiumModel VALUES (10, 16, 6.0, 18000, 0);
+INSERT INTO dataForPremiumModel VALUES (11, 22, 7.8, 25000, 1);
+INSERT INTO dataForPremiumModel VALUES (12, 9, 2.8, 9000, 0);
+INSERT INTO dataForPremiumModel VALUES (1, 15, 4.5, 10000, 1);
+INSERT INTO dataForPremiumModel VALUES (2, 10, 2.3, 8000, 0);
+INSERT INTO dataForPremiumModel VALUES (3, 20, 6.8, 15000, 1);
+INSERT INTO dataForPremiumModel VALUES (4, 12, 3.1, 12000, 0);
+INSERT INTO dataForPremiumModel VALUES (5, 18, 5.6, 20000, 1);
+INSERT INTO dataForPremiumModel VALUES (6, 8, 1.9, 6000, 0);
+INSERT INTO dataForPremiumModel VALUES (7, 14, 4.2, 11000, 1);
+INSERT INTO dataForPremiumModel VALUES (8, 16, 6.0, 18000, 0);
+INSERT INTO dataForPremiumModel VALUES (9, 22, 7.8, 25000, 1);
+INSERT INTO dataForPremiumModel VALUES (10, 9, 2.8, 9000, 0);
+INSERT INTO dataForPremiumModel VALUES (11, 15, 4.5, 10000, 1);
+INSERT INTO dataForPremiumModel VALUES (12, 10, 2.3, 8000, 0);
+INSERT INTO dataForPremiumModel VALUES (1, 20, 6.8, 15000, 1);
+INSERT INTO dataForPremiumModel VALUES (2, 12, 3.1, 12000, 0);
+INSERT INTO dataForPremiumModel VALUES (3, 18, 5.6, 20000, 1);
+INSERT INTO dataForPremiumModel VALUES (4, 8, 1.9, 6000, 0);
+INSERT INTO dataForPremiumModel VALUES (5, 14, 4.2, 11000, 1);
+INSERT INTO dataForPremiumModel VALUES (6, 16, 6.0, 18000, 0);
+INSERT INTO dataForPremiumModel VALUES (7, 22, 7.8, 25000, 1);
+INSERT INTO dataForPremiumModel VALUES (8, 9, 2.8, 9000, 0);
+INSERT INTO dataForPremiumModel VALUES (9, 15, 4.5, 10000, 1);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+CREATE TABLE dataForRegularModel(
+     monthNo INT ,
+     investmentAmm double ,
+     bestInvestmentcompanies INT
+    ) ;
+
+
+
+INSERT INTO dataForRegularModel (monthNo, investmentAmm, bestInvestmentcompanies) VALUES (1, 1800.0, 0);
+INSERT INTO dataForRegularModel (monthNo, investmentAmm, bestInvestmentcompanies) VALUES (2, 900.0, 1);
+INSERT INTO dataForRegularModel (monthNo, investmentAmm, bestInvestmentcompanies) VALUES (3, 2500.0, 0);
+INSERT INTO dataForRegularModel (monthNo, investmentAmm, bestInvestmentcompanies) VALUES (4, 1100.0, 1);
+INSERT INTO dataForRegularModel (monthNo, investmentAmm, bestInvestmentcompanies) VALUES (5, 1600.0, 0);
+INSERT INTO dataForRegularModel (monthNo, investmentAmm, bestInvestmentcompanies) VALUES (6, 1300.0, 1);
+INSERT INTO dataForRegularModel (monthNo, investmentAmm, bestInvestmentcompanies) VALUES (7, 3000.0, 0);
+INSERT INTO dataForRegularModel (monthNo, investmentAmm, bestInvestmentcompanies) VALUES (8, 700.0, 1);
+INSERT INTO dataForRegularModel (monthNo, investmentAmm, bestInvestmentcompanies) VALUES (9, 2200.0, 0);
+INSERT INTO dataForRegularModel (monthNo, investmentAmm, bestInvestmentcompanies) VALUES (10, 1400.0, 1);
+INSERT INTO dataForRegularModel (monthNo, investmentAmm, bestInvestmentcompanies) VALUES (11, 800.0, 0);
+INSERT INTO dataForRegularModel (monthNo, investmentAmm, bestInvestmentcompanies) VALUES (12, 1700.0, 1);
+
+
+
+
+
+
+
+
+
+
+
+
+CREATE TABLE tableForManagingLoans(
+UserId VARCHAR(255) ,
+wholeAmmOfLoanToReturned double ,
+LoanAmmReturned double ,
+dateWhenLoanIsTaken Date 
+)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+select * from BankAccount ;
+select * from accountActivity ;
+select * from currentBalance ;
+select * from billPaymentActivity;
+select * from tableForManagingLoans ;
+
+
+
+select * from dataForPremiumModel ;
+select * from dataForRegularModel ;

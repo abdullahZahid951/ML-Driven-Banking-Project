@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="603.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.FinancialGuardians">
+   <children>
+      <Rectangle fx:id="loginBox" arcHeight="5.0" arcWidth="5.0" fill="#1d5a94" height="458.0" layoutX="468.0" layoutY="73.0" stroke="BLACK" strokeType="INSIDE" width="408.0" />
+      <Label fx:id="brandLine" layoutX="106.0" layoutY="397.0" text="Guarding Your Assets 24/7" />
+      <ImageView fitHeight="185.0" fitWidth="379.0" layoutX="31.0" layoutY="191.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../logo.png" />
+         </image></ImageView>
+      <Label fx:id="loginForm" layoutX="540.0" layoutY="96.0" prefHeight="17.0" prefWidth="379.0" text="Bill Payment" />
+      <Button fx:id="blue" layoutX="562.0" layoutY="460.0" mnemonicParsing="false" onAction="#PayMyBillButton" prefHeight="25.0" prefWidth="120.0" text="Bill Payment" />
+      <TextField fx:id="BillAmm" layoutX="541.0" layoutY="191.0" prefHeight="25.0" prefWidth="283.0" />
+      <Label fx:id="labelForEnteringAmm" layoutX="540.0" layoutY="148.0" prefHeight="31.0" prefWidth="194.0" text="Enter Bill Amount :">
+         <font>
+            <Font name="System Bold" size="21.0" />
+         </font></Label>
+      <Label fx:id="labelForBillClass" alignment="CENTER" layoutX="467.0" layoutY="420.0" prefHeight="19.0" prefWidth="408.0">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font></Label>
+      <Button fx:id="blue" layoutX="701.0" layoutY="460.0" mnemonicParsing="false" onAction="#backButton" prefHeight="25.0" prefWidth="120.0" text="Back" />
+      <Label fx:id="labelForEnteringAmm1" layoutX="540.0" layoutY="244.0" prefHeight="31.0" prefWidth="194.0" text="Bill Id:">
+         <font>
+            <Font name="System Bold" size="21.0" />
+         </font>
+      </Label>
+      <TextField fx:id="BillId" layoutX="541.0" layoutY="283.0" prefHeight="25.0" prefWidth="283.0" promptText="Enter Bill Id With Extreme Caution" />
+      <Label fx:id="labelForEnteringAmm11" layoutX="540.0" layoutY="337.0" prefHeight="31.0" prefWidth="194.0" text="Bill Type:">
+         <font>
+            <Font name="System Bold" size="21.0" />
+         </font>
+      </Label>
+      <TextField fx:id="billType" layoutX="540.0" layoutY="385.0" prefHeight="25.0" prefWidth="283.0" promptText="{Gas , Internet, Water, Electricity, Telephone}" />
+   </children>
+</AnchorPane>
