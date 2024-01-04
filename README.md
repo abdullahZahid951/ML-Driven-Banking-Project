@@ -23,6 +23,12 @@ Framework For GUI: **JavaFx**
 ![AIAdviceForpremiumuser](https://github.com/abdullahZahid951/ML-Driven-Banking-Project/assets/140307221/861c9ae7-c75b-4b87-a782-edb82f555641)
 ### AI Advice For Regular User UI :
 ![AIAdviceForRegualrUser](https://github.com/abdullahZahid951/ML-Driven-Banking-Project/assets/140307221/0b4a175a-9567-45ea-81d5-80faa3fc6ff4)
+### Bill Payment UI :
+![billPayment](https://github.com/abdullahZahid951/ML-Driven-Banking-Project/assets/140307221/380aebf9-3ada-4d30-9a85-cd72d7ac70b8)
+### Withdraw Money UI :
+![withdrawMoneyUI](https://github.com/abdullahZahid951/ML-Driven-Banking-Project/assets/140307221/b86fa3f3-c7da-4bfd-b62e-fe6505d24acb)
+### View Info UI :
+![viewInfoUI](https://github.com/abdullahZahid951/ML-Driven-Banking-Project/assets/140307221/8486cb79-2ca7-4629-9635-b4e8992e8507)
 
 
  
