@@ -9,5 +9,9 @@ Framework For GUI: **JavaFx**
 1) Create a DB in (MySQL) on the Root Server with a Password = **Scifi123** as instructed in **ML-Driven-Banking-Project/FinancialGuardianProject/queriesForCrudOperationInProject.txt**  
 ![Capture1](https://github.com/abdullahZahid951/ML-Driven-Banking-Project/assets/140307221/74d1cfcb-0202-4963-bb4a-5a0ab792222d)
 2) You must have proper Jars for MySQL Connector integrated into your IDE.
-3) You must have JAVAFX (i.e. a Framework for GIU in JAVA ) Setup in your respective IDE. You can get help from Youtube Link (Eclipse): https://www.youtube.com/watch?v=_7OM-cMYWbQ 
+3) You must have JAVAFX (i.e. a Framework for GIU in JAVA ) Setup in your respective IDE. You can get help from Youtube Link (Eclipse): https://www.youtube.com/watch?v=_7OM-cMYWbQ
+## GUIs Of Project:
+### Login Page :
+![loginPage](https://github.com/abdullahZahid951/ML-Driven-Banking-Project/assets/140307221/e880efd3-9bc3-4410-93cd-9ade11b545e0)
+
  
